@@ -5,3 +5,7 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.big-title {
+    @apply text-primary text-60 m-40
+}

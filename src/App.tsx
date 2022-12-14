@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
     return (
-        <div className={'text-lime-600'}>This is a demo with Tailwind CSS</div>
+        <div className={'big-title'}>This is a demo with Tailwind CSS</div>
     );
 }
 

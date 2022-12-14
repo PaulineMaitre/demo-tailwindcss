@@ -90,6 +90,29 @@ To use these properties juste replace them in your 'className' like this :
 </div>
 ```
 
+## Extract style classes with @apply
+
+If you often use the same combination of tailwind properties, or if you are tired of long lines of `className` 
+properties, you can extract style classes.
+
+To do so, simply copy and paste all the Tailwind classes into your `index.css` file, into a new class `big-title`,
+using the keyword `@apply` :
+
+```css
+
+.big-title {
+    @apply text-primary text-60 m-40
+}
+```
+
+In your `.tsx` file, replace all the style classes by the new `big-title` class created :
+
+```tsx
+<div className={'big-title'}> 
+    Hello World 
+</div>
+```
+
 # Useful links
 
 Documentation -> https://tailwindcss.com/docs/installation
