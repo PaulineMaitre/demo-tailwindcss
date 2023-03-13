@@ -9,3 +9,65 @@ body {
 .big-title {
     @apply text-primary text-60 m-40
 }
+
+
+.btn-primary {
+    background-color: rgb(34 211 238);
+    color: rgb(22 78 99);
+    border-radius: 12px;
+    text-align: center;
+}
+
+/*.btn-primary {
+    background-color: rgb(34 211 238);
+    color: rgb(22 78 99);
+    border-radius: 12px;
+    text-align: center;
+    width: 128px;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+
+/*.btn-primary {
+    background-color: rgb(34 211 238); !* bg-cyan-400 *!
+    color: rgb(22 78 99); !* text-cyan-900 *!
+    border-radius: 12px; !* rounded-xl *!
+    text-align: center; !* text-center *!
+    width: 128px; !* w-32 *!
+    margin-top: 160px; !* w-40 *!
+    margin-left: auto; !* ml-auto *!
+    margin-right: auto; !* mr-auto *!
+}*/
+
+.tw-btn-primary {
+    @apply bg-cyan-400 text-cyan-900 rounded-xl text-center w-32 mt-40 mx-auto
+}
+
+.card {
+    @apply rounded-lg w-28 h-28 text-white font-bold text-2xl flex justify-center items-center m-4
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+}
+
+.btn-primary {
+    background-color: rgb(34 211 238);
+}
+
+.btn-primary:hover {
+    background-color: rgb(22 78 99);
+}
+
+.mt-0 {
+    margin-top: 0;
+}

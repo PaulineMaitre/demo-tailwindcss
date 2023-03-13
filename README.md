@@ -10,8 +10,9 @@ cd demo-tailwindcss
 ## Install Tailwind CSS
 
 ```shell
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+
+npm install tailwindcss
+npx tailwindcss init
 ```
 
 ## Configure path
@@ -40,6 +41,8 @@ In your `index.css` file, add the following lines :
 ```
 
 ## Run app
+
+To run the app, the following command line and go to http://localhost:3000.
 
 ```shell
 npm start

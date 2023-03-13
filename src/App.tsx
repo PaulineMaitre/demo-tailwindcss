@@ -1,9 +1,17 @@
 import React from 'react';
 import './App.css';
+import TwBusinessCard from "./TwBusinessCard";
+import BusinessCard from "./BusinessCard";
 
 function App() {
     return (
-        <div className={'big-title'}>This is a demo with Tailwind CSS</div>
+        <>
+            {/*<Example/>*/}
+            <div className={'w-screen h-screen flex bg-slate-100'}>
+                <BusinessCard/>
+                {/*<TwBusinessCard/>*/}
+            </div>
+        </>
     );
 }
 
